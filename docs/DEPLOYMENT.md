@@ -1,8 +1,8 @@
 # Deploying on PythonAnywhere
 
-These steps put the app on a public URL of the form `https://YOURUSERNAME.pythonanywhere.com`. They follow PythonAnywhere's own [Flask guide](https://help.pythonanywhere.com/pages/Flask) (manual configuration).
+These steps put the app on a public URL of the form `https://teodemilecamps.pythonanywhere.com`. They follow PythonAnywhere's own [Flask guide](https://help.pythonanywhere.com/pages/Flask) (manual configuration).
 
-Replace `YOURUSERNAME` with your PythonAnywhere username and `YOURREPO` with the repository name.
+Replace `teodemilecamps` with your PythonAnywhere username and `Fintech_Panic_Selling_Activity-7.2-` with the repository name.
 
 ## 0. Before you start
 
@@ -37,7 +37,7 @@ git clone https://github.com/YOURGITHUBUSER/YOURREPO.git
 ls YOURREPO
 ```
 
-The project is now at `/home/YOURUSERNAME/YOURREPO`.
+The project is now at `/home/TeoDemilecamps/Fintech_Panic_Selling_Activity-7.2-`.
 
 ## 3. Create the virtualenv and install dependencies
 
