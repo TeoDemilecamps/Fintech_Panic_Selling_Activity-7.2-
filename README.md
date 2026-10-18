@@ -5,7 +5,7 @@ A machine-learning web application that estimates the probability that a retail 
 - **Live app:** https://teodemilecamps.pythonanywhere.com
 - **API endpoint:** `POST https://teodemilecamps.pythonanywhere.com/api/predict`
 
-> Replace `teodemilecamps` with the PythonAnywhere username before submitting.
+
 
 ---
 
@@ -176,7 +176,7 @@ Requires Python 3.12 or newer.
 
 ```bash
 git clone https://github.com/TeoDemilecamps/Fintech_Panic_Selling_Activity-7.2-.git
-cd YOURREPO
+cd Fintech_Panic_Selling_Activity-7.2-
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
