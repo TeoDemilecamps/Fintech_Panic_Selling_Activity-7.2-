@@ -2,10 +2,10 @@
 
 A machine-learning web application that estimates the probability that a retail investor **panic sells after a portfolio drop**. It has an HTML front end for people and a JSON API for other applications, both backed by the same trained logistic regression model.
 
-- **Live app:** https://YOURUSERNAME.pythonanywhere.com
-- **API endpoint:** `POST https://YOURUSERNAME.pythonanywhere.com/api/predict`
+- **Live app:** https://teodemilecamps.pythonanywhere.com
+- **API endpoint:** `POST https://teodemilecamps.pythonanywhere.com/api/predict`
 
-> Replace `YOURUSERNAME` with the PythonAnywhere username before submitting.
+> Replace `teodemilecamps` with the PythonAnywhere username before submitting.
 
 ---
 
@@ -76,7 +76,7 @@ Content-Type: application/json
 **Example with curl**
 
 ```bash
-curl -X POST https://YOURUSERNAME.pythonanywhere.com/api/predict \
+curl -X POST https://teodemilecamps.pythonanywhere.com/api/predict \
   -H "Content-Type: application/json" \
   -d '{"app_checks_per_day": 18, "portfolio_drawdown_pct": 30, "single_stock_crypto_share_pct": 70}'
 ```
@@ -86,7 +86,7 @@ curl -X POST https://YOURUSERNAME.pythonanywhere.com/api/predict \
 ```python
 import requests
 
-url = "https://YOURUSERNAME.pythonanywhere.com/api/predict"
+url = "https://teodemilecamps.pythonanywhere.com/api/predict"
 payload = {
     "app_checks_per_day": 18,
     "portfolio_drawdown_pct": 30,
@@ -175,7 +175,7 @@ print(requests.post(url, json=payload, timeout=30).json())
 Requires Python 3.12 or newer.
 
 ```bash
-git clone https://github.com/YOURGITHUBUSER/YOURREPO.git
+git clone https://github.com/TeoDemilecamps/Fintech_Panic_Selling_Activity-7.2-.git
 cd YOURREPO
 
 python -m venv .venv
